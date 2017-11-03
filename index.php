@@ -68,6 +68,23 @@ if($url['result'] != 100)
 							)
 						);
 				
+	
+	}
+	{
+		
+		
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' HaiSyantik.'
+									)
+							)
+						);
+				
+	
 	}
 	else{
 		$balas = array(
